@@ -1,5 +1,5 @@
 #include <Arduino.h>
-
+#include <time.h>
 
 // These variables store the flash pattern
 // and the current state of the LED
@@ -7,8 +7,8 @@
 int ledPin =  32;                  // PC13 onboard LED
 int ledState = LOW;               // ledState used to set the LED
 unsigned long previousMillis = 0; // will store last time LED was updated
-long OnTime = 600;                 // milliseconds of on-time
-long OffTime = 50;               // milliseconds of off-time
+unsigned long OnTime = 600;                 // milliseconds of on-time
+unsigned long OffTime = 50;               // milliseconds of off-time
 
 
 
