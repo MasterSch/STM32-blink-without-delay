@@ -40,12 +40,6 @@ Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
 //#define TFT_SCLK 30  // Clock out
 //Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_MOSI, TFT_SCLK, TFT_RST);
 
-<<<<<<< HEAD
-=======
-Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
-
-
->>>>>>> 5a264d03fa1b14926259133cf2120b61d0d28a23
 // Color definitions
 #define BLACK    0x0000
 #define BLUE     0x001F
