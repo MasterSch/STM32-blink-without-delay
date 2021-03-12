@@ -8,8 +8,8 @@ int ledPin =  PA1;                  // PC13 onboard LED
 int ledState = LOW;               // ledState used to set the LED
 unsigned long previousMillis = 0; // will store last time LED was updated
 
-unsigned long OnTime = 400;                 // milliseconds of on-time
-unsigned long OffTime = 100;               // milliseconds of off-time
+unsigned long OnTime = 200;                 // milliseconds of on-time
+unsigned long OffTime = 200;               // milliseconds of off-time
 
 
 
