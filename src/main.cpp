@@ -4,12 +4,12 @@
 // These variables store the flash pattern
 // and the current state of the LED
 
-int ledPin =  32;                  // PC13 onboard LED
+int ledPin =  PA1;                  // PC13 onboard LED
 int ledState = LOW;               // ledState used to set the LED
 unsigned long previousMillis = 0; // will store last time LED was updated
 
-unsigned long OnTime = 600;                 // milliseconds of on-time
-unsigned long OffTime = 50;               // milliseconds of off-time
+unsigned long OnTime = 400;                 // milliseconds of on-time
+unsigned long OffTime = 100;               // milliseconds of off-time
 
 
 
